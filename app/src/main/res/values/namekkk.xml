@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu3">
+        <item>ต้มยำกุ้ง</item>
+        <item>ต้มยำหมู</item>
+        <item>ต้มจืด</item>
+        <item>ต้มเลือดหมู</item>
+        <item>ต้มมะละ</item>
+    </string-array>
+</resources>

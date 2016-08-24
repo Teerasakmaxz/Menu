@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="memu2">
+        <item>ปลานึ่ง</item>
+        <item>หมึกนึ่ง</item>
+        <item>ห่อหมก</item>
+        <item>ปลานึ่งมะนาว</item>
+        <item>ผักกาดนึ่ง</item>
+
+    </string-array>
+</resources>

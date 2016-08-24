@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu4">
+        <item>ผัดหอยลาย</item>
+        <item>ผัดหมูมะม่วง</item>
+        <item>ผัดผักบุ้ง</item>
+        <item>ผัดวุ้นเส้น</item>
+        <item>ผัดคะน้าหมูกรอบ</item>
+    </string-array>
+</resources>

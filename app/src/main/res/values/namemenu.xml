@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string-array name="namemenu">
+
+      <item>กุ้งทอด</item>
+      <item>ไก่ทอดใบกระเพรากรอบ</item>
+      <item>ไก่ทอดน้ำปลา</item>
+      <item>ปลาทอด</item>
+      <item>นักเก็ตทอด</item>
+
+  </string-array>
+
+    <string-array name="detail">
+        <item>หอมอร่อยกรอบ</item>
+        <item>ไก่ย่างห้าดาวหอมอร่อย</item>
+        <item>หอมอร่อยกรอบ2</item>
+        <item>หอมอร่อยกรอ3</item>
+        <item>หอมอร่อยกรอบ4</item>
+        <item>หอมอร่อยกรอบ5</item>
+    </string-array>
+
+
+
+
+
+</resources>
