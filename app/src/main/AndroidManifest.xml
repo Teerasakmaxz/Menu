@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Listviewpag" />
+        <activity android:name=".Detsail" />
+        <activity android:name=".Listviewpag2" />
+        <activity android:name=".Listviewpag3" />
+        <activity android:name=".Listviewpag4"></activity>
     </application>
+
+
 
 </manifest>
