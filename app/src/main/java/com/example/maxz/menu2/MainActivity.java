@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
+
+    //ประกาศตัวแปลนะจ๊ะ
     Button button1,button2,button3, button4;
 
     @Override
@@ -14,22 +17,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bindWidgget();
 
-
-    }
-    private void bindWidgget() {
-
+        //เชื่อม UI ด้วย findViewId
         button1 = (Button) findViewById(R.id.button);
+        button2 = (Button) findViewById(R.id.button2);
+        button3 = (Button) findViewById(R.id.button3);
+        button4 = (Button) findViewById(R.id.button4);
+
+        //setOnClick คือทำให้ปุ่มสามารถคลิกได้
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //กำหนดว่าจะให้ปุ่มนี้ทำอะไร
                 Intent intent = new Intent(MainActivity.this, Listviewpag.class);
                 startActivity(intent);
+                // Intent เป็นคำสั่งที่เอาไว้เพื่อการส่งข้อมูลไปอีกหน้าหนึ่ง แต่อันที่เราทำกันเป็นแค่ เปลี่ยนหน้ายังไม่ได้ส่งข้อมูล
             }
         });
 
-        button2 = (Button) findViewById(R.id.button2);
+
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button3 = (Button) findViewById(R.id.button3);
+
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button4 = (Button) findViewById(R.id.button4);
+
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,6 +61,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent3);
             }
         });
-
     }
+
 }
